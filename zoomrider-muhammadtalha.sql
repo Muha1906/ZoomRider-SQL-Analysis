@@ -24,6 +24,7 @@ LIMIT 5;
 -- ==========================================================================
 
 -- Q3.  How many trips happened in each city?
+
 -- Q3: Trips by City
 SELECT city, COUNT(*) AS total_trips
 FROM trips
@@ -37,7 +38,8 @@ ORDER BY total_trips DESC;
 -- ***==========================================================================***
 -- Part 3: Clean the data
 -- ***==========================================================================***
--- Q4a: Fint the Duplicate Trips
+
+-- Q4a: Find the Duplicate Trips
 SELECT 
     customer_id,
     driver_id,
@@ -123,7 +125,6 @@ order by month;
 -- ***================================================================***
 
 -- Q8.  Revenue by Vehicle Type
--- Q8: Revenue by Vehicle Type
 SELECT
     d.vehicle_type,
     COUNT(*) AS total_trips,
