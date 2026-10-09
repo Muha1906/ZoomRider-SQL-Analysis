@@ -22,12 +22,12 @@ I cleaned inconsistent city names, identified duplicate trips, and checked missi
 
 
 -- ***==============================================================***
--- Message to the Manager
+--    Message to the Manager
 -- ***==============================================================***
 
 -- Message:
--- ZoomRide should invest more in lagos city because it generated the highest revenue of  218890.00 from 93 completed trips.
--- I found problem such as duplicate trips and inconsistenct city name Which could make revenue and trip counts inaccurate.
+-- ZoomRide should invest more in lagos city because it generated the highest revenue of  218890.00 from 93 completed       trips.
+-- I found problem such as duplicate trips and inconsistenct city name Which could make revenue and trip counts             inaccurate.
 -- Before making a big decision, i would like to know the operation costs and profit for each city.
 
 
